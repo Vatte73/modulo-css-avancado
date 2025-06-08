@@ -1,0 +1,24 @@
+/* Estiliza a primeira Letra da tag */
+p::first-letter{
+    color: red;
+}
+
+/* Estiliza a  primeira linha */
+p::first-line {
+    color: aqua;
+}
+
+li::marker{
+    color: orange;
+    font-size: 30px;
+}
+
+/* Conteudo antes do elemento */
+h2::before{
+    content: url(./images/21362697191661247270-20.png);
+}
+
+/* Conteudo depois do elemento */
+h2::after{
+    content: url(./images/9373104291661247011-24.png);
+}
