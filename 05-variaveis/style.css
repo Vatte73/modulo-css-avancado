@@ -1,0 +1,26 @@
+:root{
+    --cor-padrao: red;
+    --tamanho-de-fonte-padrao: 20px;
+}
+
+h2{
+    --cor-padrao: purple;
+
+    color: var(--cor-padrao, green);
+    font-size: var(--tamanho-de-fonte-padrao, 30px);
+}
+
+h3{
+    color: var(--cor-padrao, green);
+    font-size: var(--tamanho-de-fonte-padrao, 30px);
+}
+
+p{
+    color: var(--cor-padrao, green);
+    font-size: var(--tamanho-de-fonte-padrao, 30px);
+}
+
+scan{
+    color: var(--cor-padrao, green);
+    font-size: var(--tamanho-de-fonte-padrao, 30px);
+}
