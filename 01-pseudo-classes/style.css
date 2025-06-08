@@ -1,0 +1,35 @@
+
+/* Primeiro filho recebe a estilização */
+p:first-child{
+    color: red;
+}
+
+
+/* Ultimo filho recebe a estilização */
+p:last-child{
+    color: purple;
+}
+
+/* Quem tem a classe que esta dentro dos parenteses recebe a estilização */
+p:not(.padrao){
+    color: blue;
+}
+
+/* Impares recebem a estilização */
+p:nth-child(odd){
+    color: pink;
+}
+
+/* Pares recebem a estilização */
+p:nth-child(even){
+    color: blueviolet;
+}
+
+/* De 3 em 3 recebem a estilização */
+li:nth-child(3n){
+    color: greenyellow;
+}
+
+p:only-child {
+    color: aqua;
+}
